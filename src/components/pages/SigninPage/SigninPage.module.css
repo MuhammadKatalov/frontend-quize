@@ -76,6 +76,11 @@
   cursor: pointer;
 }
 
+.signinBtn {
+  text-decoration: none;
+  color: #fff;
+}
+
 .auth__href {
   width: 100px;
   margin-left: 220px;
@@ -109,7 +114,6 @@
   line-height: 25px;
   text-align: center;
 }
-
 
 .profile__terms a {
   color: #02a0ea;

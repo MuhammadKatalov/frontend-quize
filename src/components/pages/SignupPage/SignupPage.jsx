@@ -49,7 +49,10 @@ const SignupPage = () => {
   };
 
   const handleSubmit = () => {
-    dispatch(createUser({ login, password })).unwrap().then(() => navigate('/signin')).catch(() => console.log(123));
+    dispatch(createUser({ login, password }))
+      .unwrap()
+      .then(() => navigate("/signin"))
+      .catch(() => console.log(123));
     setLogin("");
     setPassword("");
   };

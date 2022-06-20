@@ -98,7 +98,7 @@ const SigninPage = () => {
               onClick={handleSubmit}
               disabled={signingIn}
             >
-              <Link to={'/tests'}><span>Войти</span></Link>
+              <Link className={styles.signinBtn} to={'/tests'}><span>Войти</span></Link>
             </button>
             <Link to="/signup" className={styles.auth__href}>
               Регистрация
